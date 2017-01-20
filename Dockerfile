@@ -4,11 +4,11 @@ MAINTAINER Nico
 WORKDIR /root
 
 #add files
-ADD epita.jar
-ADD nohup.out
-ADD readme.txt
-ADD start.sh
-ADD logs.txt
+ADD epita.jar /root
+ADD nohup.out /root
+ADD readme.txt /root
+ADD start.sh /root
+ADD logs.txt /root
 
 #set permissions
 RUN chmod +x start.sh
