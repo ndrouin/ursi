@@ -16,3 +16,5 @@ RUN chmod +x start.sh
 #run server
 ENTRYPOINT ./start.sh > logs.txt&
 
+#firewall
+EXPOSE 8080
